@@ -38,5 +38,6 @@ export default class initModal {
 		if (this.containerModal && this.botaoFechar && this.botaoAbrir) {
 			this.addModalEvents();
 		}
+		return this;
 	}
 }
