@@ -18,7 +18,6 @@ export default class Funcionamento {
 	}
 
 	estaAberto() {
-		console.log(this.diaAgora);
 		const semanaAberto = this.diasSemana.indexOf(this.diaAgora) !== -1;
 		const horarioAberto =
 			this.horarioAgora >= this.horarioSemana[0] &&
